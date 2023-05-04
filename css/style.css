@@ -1,0 +1,41 @@
+body {
+  background-image: linear-gradient(to right, #73ffd3, #00cede, #0098e3, #005cc8, #450082);
+}
+
+.item {
+  height: 200px;
+  width: 150px;
+  padding-top: 20px;
+  border: 1px solid black;
+}
+.item li {
+  list-style: none;
+}
+.item .item2:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.item .item2:hover .Subitem {
+  display: inline;
+}
+.item .Subitem {
+  height: 200px;
+  width: 150px;
+  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  display: none;
+}
+.item .Subitem:hover {
+  position: relative;
+  top: -220px;
+  left: 150px;
+}
+.item .li1 {
+  padding-top: 46px;
+  padding-left: 10px;
+}
+.item li {
+  padding-top: 15px;
+  padding-left: 10px;
+}
